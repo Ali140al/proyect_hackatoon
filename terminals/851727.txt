@@ -5,7 +5,7 @@ command: "cd $HOME\\Projects\\tablero-quirurgico\\frontend; npm run dev -- --hos
 title: "Start Vite dev server"
 status: running  
 started_at: 2026-10-01T15:36:56.625Z
-running_for_ms: 16815368 
+running_for_ms: 17412358 
 ---
 npm warn Unknown env config "devdir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
 
