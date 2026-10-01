@@ -1,0 +1,753 @@
+---
+pid: 20472
+cwd: "C:\\Users\\User\\Projects\\tablero-quirurgico\\frontend"
+command: "cd $HOME\\Projects\\tablero-quirurgico\\frontend; npm run dev -- --host 127.0.0.1"
+title: "Start Vite dev server"
+status: running  
+started_at: 2026-10-01T15:36:56.625Z
+running_for_ms: 16815368 
+---
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> frontend@0.0.0 dev
+> vite --host 127.0.0.1
+
+
+  VITE v8.3.2  ready in 635 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+10:40:10 a. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+10:41:40 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:42 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:44 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:46 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:48 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:50 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:52 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+10:41:54 a. m. [vite] http proxy error: /api/cirugias/1
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+12:25:14 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:25:14 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:25:14 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:25:14 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:31:48 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/AgenteVoz.jsx, /src/components/Trazabilidad.jsx, /src/components/Gestion.jsx, /src/components/Quirofano.jsx, /src/index.css
+12:31:48 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:31:48 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:48 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:31:49 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:31:49 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:31:49 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:31:50 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:31:50 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:09 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+12:32:09 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:09 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:09 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:09 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:09 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:09 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:09 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:09 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:09 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:09 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:09 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:09 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) hmr update /src/components/ui.jsx, /src/index.css
+12:32:24 p. m. [vite] (client) hmr invalidate /src/components/ui.jsx Could not Fast Refresh (new export)
+12:32:24 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/AgenteVoz.jsx, /src/components/Trazabilidad.jsx, /src/components/Gestion.jsx, /src/components/Quirofano.jsx
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:24 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:24 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:32:24 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:25 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:32:25 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:29 p. m. [vite] (client) hmr update /src/components/ui.jsx, /src/index.css
+12:32:29 p. m. [vite] (client) hmr invalidate /src/components/ui.jsx Could not Fast Refresh ("SEVERIDAD" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:32:29 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/AgenteVoz.jsx, /src/components/Trazabilidad.jsx, /src/components/Gestion.jsx, /src/components/Quirofano.jsx
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:29 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:29 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:32:29 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:30 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:32:30 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:30 p. m. [vite] (client) hmr update /src/components/ui.jsx, /src/index.css
+12:32:30 p. m. [vite] (client) hmr invalidate /src/components/ui.jsx Could not Fast Refresh ("SEVERIDAD" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:32:30 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/AgenteVoz.jsx, /src/components/Trazabilidad.jsx, /src/components/Gestion.jsx, /src/components/Quirofano.jsx
+12:32:30 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:30 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:30 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:30 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:30 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:30 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:30 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:30 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:31 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:32:31 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:31 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:31 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:31 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:31 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:31 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:31 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:31 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:31 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:32 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:32:32 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:32:32 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:32 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Trazabilidad.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:32 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:32 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:32 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:32 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:32 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_COLOR'
+12:32:32 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:53 p. m. [vite] (client) hmr update /src/index.css, /src/components/AgenteVoz.jsx
+12:32:53 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:53 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:53 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:53 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:32:53 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790875908880' does not provide an export named 'ROL_NOMBRE'
+12:32:53 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/AgenteVoz.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:33:31 p. m. [vite] (client) hmr update /src/components/AgenteVoz.jsx, /src/index.css
+12:33:31 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:33:31 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:33:32 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'includes')
+ > src/components/Quirofano.jsx:137:32
+    135 |            const hecho = !!h.hora
+    136 |            const esSiguiente = siguiente?.codigo === h.codigo && !finalizada
+    137 |            const puede = h.roles.includes(usuario.rol)
+        |                                  ^
+    138 |            return (
+    139 |              <li
+ > Hitos src/components/Quirofano.jsx:134:22
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+
+12:33:32 p. m. [vite] (client) [console.warn] An error occurred in the <Hitos> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:33:37 p. m. [vite] (client) hmr update /src/index.css
+12:36:45 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+12:36:45 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+12:38:20 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:38:21 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'puede_configurar')
+ > Gestion src/components/Gestion.jsx:583:26
+    581 |    const [tab, setTab] = useState('indicadores')
+    582 |    const [reglas, setReglas] = useState({ reglas: [], umbral_preventivo_pct: 25 })
+    583 |    const puede = !!usuario.puede_configurar
+        |                            ^
+    584 |  
+    585 |    const cargarReglas = useCallback(() => api.get('/reglas').then((r) => r.ok && setReglas(r.data)), [])
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:18985:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:18094:34
+
+12:38:21 p. m. [vite] (client) [console.warn] An error occurred in the <Gestion> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:38:46 p. m. [vite] (client) hmr update /src/components/Trazabilidad.jsx, /src/index.css
+12:38:47 p. m. [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'puede_configurar')
+ > Gestion src/components/Gestion.jsx:583:26
+    581 |    const [tab, setTab] = useState('indicadores')
+    582 |    const [reglas, setReglas] = useState({ reglas: [], umbral_preventivo_pct: 25 })
+    583 |    const puede = !!usuario.puede_configurar
+        |                            ^
+    584 |  
+    585 |    const cargarReglas = useCallback(() => api.get('/reglas').then((r) => r.ok && setReglas(r.data)), [])
+ > Object.react_stack_bottom_frame node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+ > renderWithHooks node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+ > updateFunctionComponent node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+ > beginWork node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+ > runWithFiberInDEV node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+ > performUnitOfWork node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+ > workLoopSync node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+ > renderRootSync node_modules/react-dom/cjs/react-dom-client.development.js:18985:10
+ > performWorkOnRoot node_modules/react-dom/cjs/react-dom-client.development.js:18094:34
+
+12:38:47 p. m. [vite] (client) [console.warn] An error occurred in the <Gestion> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+12:39:31 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+12:39:43 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+12:39:43 p. m. [vite] Internal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/App.jsx:321:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m321 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m}[0m
+ [38;5;240m    │[0m          │ 
+ [38;5;240m    │[0m          ╰─ 
+[38;5;246m─────╯[0m
+
+  Plugin: vite:oxc
+  File: C:/Users/User/Projects/tablero-quirurgico/frontend/src/App.jsx
+      at transformWithOxc (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:7581:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:7653:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:8545:51)
+      at async loadAndTransform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:19988:26)
+12:39:43 p. m. [vite] Internal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/App.jsx:321:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m321 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m}[0m
+ [38;5;240m    │[0m          │ 
+ [38;5;240m    │[0m          ╰─ 
+[38;5;246m─────╯[0m
+
+  Plugin: vite:oxc
+  File: C:/Users/User/Projects/tablero-quirurgico/frontend/src/App.jsx
+      at transformWithOxc (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:7581:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:7653:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:8545:51)
+      at async loadAndTransform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:19988:26)
+12:39:43 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:39:43 p. m. [vite] Internal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mUnexpected token. Did you mean `{'}'}` or `&rbrace;`?
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/App.jsx:321:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m321 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m}[0m
+ [38;5;240m    │[0m          │ 
+ [38;5;240m    │[0m          ╰─ 
+[38;5;246m─────╯[0m
+
+  Plugin: vite:oxc
+  File: C:/Users/User/Projects/tablero-quirurgico/frontend/src/App.jsx
+      at transformWithOxc (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:7581:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:7653:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:8545:51)
+      at async loadAndTransform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:19988:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:20207:20)
+12:39:43 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:39:43 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+12:39:45 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+12:39:49 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+12:42:45 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+12:42:45 p. m. [vite] (client) [console.error] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: []
+Incoming: [false, 0]
+12:42:45 p. m. [vite] (client) [console.error] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: []
+Incoming: [false, 0]
+12:42:46 p. m. [vite] (client) [console.error] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: []
+Incoming: [false, 0]
+12:42:52 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+12:42:52 p. m. [vite] (client) [console.error] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: [false, 0]
+Incoming: [false]
+12:42:52 p. m. [vite] (client) [console.error] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: [false, 0]
+Incoming: [false]
+12:42:53 p. m. [vite] (client) [console.error] The final argument passed to useEffect changed size between renders. The order and size of this array must remain constant.
+
+Previous: [false, 0]
+Incoming: [false]
+12:49:09 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:52:07 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:52:07 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:52:08 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:53:22 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:53:24 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+12:53:26 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+1:59:58 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+1:59:58 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh (new export)
+1:59:58 p. m. [vite] (client) page reload src/App.jsx
+1:59:59 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:00 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:00 p. m. [vite] (client) page reload src/App.jsx
+2:00:03 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:03 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:03 p. m. [vite] (client) page reload src/App.jsx
+2:00:03 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:03 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:03 p. m. [vite] (client) page reload src/App.jsx
+2:00:08 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:08 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:08 p. m. [vite] (client) page reload src/App.jsx
+2:00:10 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:10 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:10 p. m. [vite] (client) page reload src/App.jsx
+2:00:16 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:16 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:16 p. m. [vite] (client) page reload src/App.jsx
+2:00:18 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:18 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:18 p. m. [vite] (client) page reload src/App.jsx
+2:00:19 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:19 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:19 p. m. [vite] (client) page reload src/App.jsx
+2:00:21 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:00:21 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:21 p. m. [vite] (client) page reload src/App.jsx
+2:00:22 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/AgenteVoz.jsx, /src/components/Trazabilidad.jsx, /src/components/Gestion.jsx, /src/components/Quirofano.jsx, /src/components/AlertaModal.jsx, /src/components/NuevaCirugia.jsx, /src/index.css
+2:00:22 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:22 p. m. [vite] (client) page reload src/App.jsx
+2:00:22 p. m. [vite] (client) hmr invalidate /src/components/AlertaModal.jsx Could not Fast Refresh ("alertasInterruptivas" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:22 p. m. [vite] (client) hmr update /src/App.jsx
+2:00:23 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:00:23 p. m. [vite] (client) page reload src/App.jsx
+2:01:08 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:08 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh (new export)
+2:01:08 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:08 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:08 p. m. [vite] (client) page reload src/App.jsx
+2:01:09 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:09 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:09 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:09 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:09 p. m. [vite] (client) page reload src/App.jsx
+2:01:23 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:23 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:23 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:23 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:23 p. m. [vite] (client) page reload src/App.jsx
+2:01:24 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:24 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:24 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:24 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:24 p. m. [vite] (client) page reload src/App.jsx
+2:01:45 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:45 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:45 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:45 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:45 p. m. [vite] (client) page reload src/App.jsx
+2:01:47 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:47 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:47 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:47 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:47 p. m. [vite] (client) page reload src/App.jsx
+2:01:48 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:48 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:48 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:48 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:48 p. m. [vite] (client) page reload src/App.jsx
+2:01:51 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:01:51 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:51 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:01:51 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:01:51 p. m. [vite] (client) page reload src/App.jsx
+2:03:01 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:03:01 p. m. [vite] Internal server error: EBUSY: resource busy or locked, open 'C:\Users\User\Projects\tablero-quirurgico\frontend\src\components\Quirofano.jsx'
+      at async open (node:internal/fs/promises:640:25)
+      at async Object.readFile (node:internal/fs/promises:1287:14)
+      at async loadAndTransform (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:19946:12)
+      at async viteTransformMiddleware (file:///C:/Users/User/Projects/tablero-quirurgico/frontend/node_modules/vite/dist/node/chunks/node.js:20207:20)
+2:03:01 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/components/Quirofano.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+2:03:01 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:03:01 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:01 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:03:01 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:01 p. m. [vite] (client) page reload src/App.jsx
+2:03:01 p. m. [vite] (client) page reload src/components/_seccion.tmp
+2:03:31 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:03:31 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:31 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:03:31 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:31 p. m. [vite] (client) page reload src/App.jsx
+2:03:34 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:03:34 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:34 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:03:34 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:34 p. m. [vite] (client) page reload src/App.jsx
+2:03:37 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:03:37 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:37 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:03:37 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:37 p. m. [vite] (client) page reload src/App.jsx
+2:03:46 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:03:46 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:46 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:03:46 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh ("cuerpoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:03:46 p. m. [vite] (client) page reload src/App.jsx
+2:04:15 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:04:15 p. m. [vite] (client) hmr invalidate /src/App.jsx Could not Fast Refresh (export removed)
+2:04:15 p. m. [vite] (client) page reload src/App.jsx
+2:04:17 p. m. [vite] (client) hmr update /src/App.jsx, /src/index.css
+2:04:17 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790881222694' does not provide an export named 'cuerpoResponsable'
+2:04:17 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+2:04:17 p. m. [vite] (client) [console.error] [vite] SyntaxError: The requested module '/src/api.js?t=1790881222694' does not provide an export named 'cuerpoResponsable'
+2:04:17 p. m. [vite] (client) [console.error] [vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+2:04:19 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/AgenteVoz.jsx, /src/components/Trazabilidad.jsx, /src/components/Gestion.jsx, /src/components/Quirofano.jsx, /src/components/AlertaModal.jsx, /src/components/NuevaCirugia.jsx, /src/index.css
+2:04:19 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:04:19 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:04:19 p. m. [vite] (client) hmr invalidate /src/components/AlertaModal.jsx Could not Fast Refresh ("alertasInterruptivas" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:04:19 p. m. [vite] (client) hmr update /src/App.jsx
+2:04:56 p. m. [vite] (client) hmr update /src/components/AgenteVoz.jsx, /src/index.css
+2:05:12 p. m. [vite] (client) hmr update /src/index.css, /src/components/AlertaModal.jsx
+2:05:12 p. m. [vite] (client) hmr invalidate /src/components/AlertaModal.jsx Could not Fast Refresh ("alertasInterruptivas" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:12 p. m. [vite] (client) hmr update /src/App.jsx
+2:05:15 p. m. [vite] (client) hmr update /src/index.css, /src/components/AlertaModal.jsx
+2:05:16 p. m. [vite] (client) hmr invalidate /src/components/AlertaModal.jsx Could not Fast Refresh ("alertasInterruptivas" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:16 p. m. [vite] (client) hmr update /src/App.jsx
+2:05:21 p. m. [vite] (client) hmr update /src/index.css, /src/components/AlertaModal.jsx
+2:05:21 p. m. [vite] (client) hmr invalidate /src/components/AlertaModal.jsx Could not Fast Refresh ("alertasInterruptivas" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:21 p. m. [vite] (client) hmr update /src/App.jsx
+2:05:21 p. m. [vite] (client) hmr update /src/index.css, /src/components/AlertaModal.jsx
+2:05:21 p. m. [vite] (client) hmr invalidate /src/components/AlertaModal.jsx Could not Fast Refresh ("alertasInterruptivas" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:21 p. m. [vite] (client) hmr update /src/App.jsx
+2:05:47 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+2:05:47 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:47 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:05:50 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+2:05:50 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:50 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:05:50 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+2:05:50 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:50 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:05:52 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+2:05:52 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:52 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:05:55 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+2:05:55 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:55 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:05:57 p. m. [vite] (client) hmr update /src/index.css, /src/components/Trazabilidad.jsx, /src/components/Quirofano.jsx
+2:05:57 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:05:57 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:06:04 p. m. [vite] (client) hmr update /src/components/Trazabilidad.jsx, /src/index.css
+2:06:10 p. m. [vite] (client) hmr update /src/components/Trazabilidad.jsx, /src/index.css
+2:06:12 p. m. [vite] (client) hmr update /src/components/Trazabilidad.jsx, /src/index.css
+2:06:14 p. m. [vite] (client) hmr update /src/components/Trazabilidad.jsx, /src/index.css
+2:06:16 p. m. [vite] (client) hmr update /src/components/Trazabilidad.jsx, /src/index.css
+2:06:37 p. m. [vite] (client) hmr update /src/index.css, /src/components/NuevaCirugia.jsx
+2:06:41 p. m. [vite] (client) hmr update /src/index.css, /src/components/NuevaCirugia.jsx
+2:06:48 p. m. [vite] (client) hmr update /src/index.css, /src/components/NuevaCirugia.jsx
+2:07:16 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:18 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:21 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:26 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:28 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:31 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:33 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:45 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:46 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:48 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:07:50 p. m. [vite] (client) hmr update /src/components/Gestion.jsx, /src/index.css
+2:12:06 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:12:06 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:12:06 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx
+2:12:07 p. m. [vite] (client) hmr update /src/components/Quirofano.jsx, /src/index.css
+2:12:07 p. m. [vite] (client) hmr invalidate /src/components/Quirofano.jsx Could not Fast Refresh ("textoResponsable" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:12:07 p. m. [vite] (client) hmr update /src/App.jsx, /src/components/Gestion.jsx

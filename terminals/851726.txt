@@ -1,0 +1,528 @@
+---
+pid: 8356
+cwd: "C:\\Users\\User\\Projects\\tablero-quirurgico\\frontend"
+command: "cd $HOME\\Projects\\tablero-quirurgico\\backend; .venv\\Scripts\\python -m app.seed; .venv\\Scripts\\python -m uvicorn app.main:app --host 127.0.0.1 --port 8000"
+title: "Seed DB and start FastAPI server"
+status: failed   
+started_at: 2026-10-01T15:36:55.902Z
+running_for_ms: 282481   
+---
+Base de datos reiniciada con la semilla de la demo.
+INFO:     Started server process [11852]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57355 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52560 - "GET /json/version HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51338 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51339 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51340 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51341 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51342 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57355 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52560 - "GET /json/version HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51343 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50061 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51896 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57733 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61922 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51294 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50505 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56831 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56832 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56833 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56834 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56835 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56836 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54625 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51930 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56796 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59791 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61317 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59360 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60955 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60850 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49968 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50293 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54453 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58049 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55937 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55099 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58907 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59675 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51340 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64420 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61183 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52952 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49972 - "POST /api/agent/command HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52529 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56929 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63774 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62482 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60320 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65126 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62621 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56880 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51576 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63298 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53525 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61266 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55076 - "POST /api/agent/command HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56974 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52239 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56784 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65071 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53834 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52807 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53227 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59398 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54640 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64041 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53396 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53255 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62618 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55731 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63639 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62829 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64824 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63128 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54120 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55456 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56901 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58263 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49677 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59722 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60052 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60969 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52701 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64374 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54217 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58865 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50754 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57946 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64534 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51743 - "POST /api/agent/command HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62258 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53690 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57120 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54532 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53392 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63121 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65345 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49677 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55971 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52384 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54198 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57896 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52357 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56655 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61354 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56467 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49677 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62108 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60637 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62613 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55025 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58867 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61473 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53855 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50071 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50073 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57703 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61108 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59359 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49266 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62117 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51008 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62846 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54856 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64201 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54309 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64495 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52999 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64972 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64788 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60454 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56990 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54869 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59008 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54321 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60187 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51699 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63972 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55310 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62984 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60667 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64463 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61979 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57777 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62735 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65226 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61070 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62107 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56885 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64145 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53736 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61820 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65009 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55106 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60950 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59553 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56264 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50918 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59161 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62455 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63838 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64973 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65135 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54424 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54635 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60604 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59378 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49751 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57011 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55135 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65129 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52415 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60380 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64011 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53907 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50103 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55134 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52396 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54996 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54997 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51241 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50781 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54913 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58632 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55832 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63752 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57546 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52920 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64198 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61084 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59099 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53938 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54970 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59740 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60866 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64409 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59998 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53390 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64809 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54121 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50911 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55806 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61687 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61033 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51794 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51793 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60096 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60097 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56206 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53359 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60461 - "GET /api/usuarios HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56458 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51881 - "GET /api/cirugias HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58673 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60112 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61115 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59247 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58233 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59206 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56500 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60704 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62623 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55115 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56226 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58312 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62045 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55734 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57657 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58005 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57394 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55010 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65412 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63086 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56752 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54406 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57506 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61494 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59786 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59529 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57426 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56636 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49971 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65128 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54565 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50376 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51690 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55291 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54248 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65286 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55848 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65276 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53811 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55715 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50357 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63668 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51083 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53007 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58391 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60643 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57542 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50416 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50413 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58860 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63577 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53126 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61118 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55219 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58404 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61931 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54686 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53616 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49677 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61477 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64938 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58507 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59220 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53455 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63404 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54430 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55225 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64040 - "GET /api/cirugias/1 HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: cirugia
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 422, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\applications.py", line 1215, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\telemetry\_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\middleware\cors.py", line 149, in simple_response
+    await self.app(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\routing.py", line 676, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\routing.py", line 2786, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\routing.py", line 1310, in handle
+    await super().handle(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\routing.py", line 282, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\routing.py", line 165, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\routing.py", line 151, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\routing.py", line 727, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\routing.py", line 362, in run_endpoint_function
+    return await run_in_threadpool(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+        _run_sync_endpoint, function=dependant.call, arguments=values
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\anyio\to_thread.py", line 65, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2706, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1100, in run
+    result = context.run(func, *args)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\fastapi\telemetry\_api.py", line 240, in _run_sync_endpoint
+    return function(**arguments)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\app\main.py", line 122, in cirugia
+    return sv.estado_cirugia(session, cid)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\app\services.py", line 500, in estado_cirugia
+    cir = _cirugia(session, cirugia_id)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\app\services.py", line 138, in _cirugia
+    cir = session.get(Cirugia, cirugia_id)
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 3702, in get
+    return self._get_impl(
+           ~~~~~~~~~~~~~~^
+        entity,
+        ^^^^^^^
+    ...<7 lines>...
+        bind_arguments=bind_arguments,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 3881, in _get_impl
+    return db_load_fn(
+        self,
+    ...<5 lines>...
+        bind_arguments=bind_arguments,
+    )
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\orm\loading.py", line 695, in load_on_pk_identity
+    session.execute(
+    ~~~~~~~~~~~~~~~^
+        q,
+        ^^
+    ...<2 lines>...
+        bind_arguments=bind_arguments,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlmodel\orm\session.py", line 136, in execute
+    return super().execute(
+           ~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2373, in execute
+    return self._execute_internal(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        statement,
+        ^^^^^^^^^^
+    ...<4 lines>...
+        _add_event=_add_event,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2271, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<4 lines>...
+        conn,
+        ^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\orm\context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+        statement, params or {}, execution_options=execution_options
+    )
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\User\Projects\tablero-quirurgico\backend\.venv\Lib\site-packages\sqlalchemy\engine\default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: cirugia
+[SQL: SELECT cirugia.id AS cirugia_id, cirugia.paciente_id AS cirugia_paciente_id, cirugia.quirofano AS cirugia_quirofano, cirugia.procedimiento_programado AS cirugia_procedimiento_programado, cirugia.sitio_programado AS cirugia_sitio_programado, cirugia.procedimiento_registrado AS cirugia_procedimiento_registrado, cirugia.sitio_registrado AS cirugia_sitio_registrado, cirugia.estado AS cirugia_estado, cirugia.fase_actual AS cirugia_fase_actual, cirugia.fecha_programada AS cirugia_fecha_programada, cirugia.t_ingreso AS cirugia_t_ingreso, cirugia.t_inicio_anestesia AS cirugia_t_inicio_anestesia, cirugia.t_inicio_cirugia AS cirugia_t_inicio_cirugia, cirugia.t_fin_cirugia AS cirugia_t_fin_cirugia, cirugia.t_salida_recuperacion AS cirugia_t_salida_recuperacion 
+FROM cirugia 
+WHERE cirugia.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+INFO:     127.0.0.1:55230 - "POST /api/demo/reset HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55230 - "POST /api/agent/command HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52948 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54270 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60415 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55813 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55586 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61258 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56435 - "GET /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65037 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60318 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49336 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50434 - "GET /api/cirugias/1 HTTP/1.1" 200 OK
+
+---
+exit_code: 4294967295
+elapsed_ms: 282480
+ended_at: 2026-10-01T15:41:38.382Z
+---

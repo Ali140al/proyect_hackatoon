@@ -1,0 +1,14 @@
+---
+cwd: "C:\\Users\\User\\Projects\\tablero-quirurgico"
+command: "cd $HOME\\Projects\\tablero-quirurgico; New-Item -ItemType Directory -Force backend | Out-Null; python -m venv backend\\.venv; backend\\.venv\\Scripts\\python -m pip install -q fastapi \"uvicorn[standard]\" sqlmodel rapidfuzz pytest httpx; backend\\.venv\\Scripts\\python -m pip freeze"
+title: "Create venv and install backend deps"
+status: failed   
+started_at: 2026-10-01T15:17:07.881Z
+running_for_ms: 59       
+---
+
+---
+error: "Sandbox policy 'workspace_readwrite' is not supported on this system. Ensure the sandbox helper binary is available, or use 'insecure_none'. Reason: Windows sandbox helper only provides network proxy, not filesystem isolation"
+elapsed_ms: 56
+ended_at: 2026-10-01T15:17:07.937Z
+---
